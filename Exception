@@ -1,0 +1,16 @@
+public class demoException
+   public static void hasException_1{
+     public static void hasException(){
+       int array[] = new int[10];
+       try{
+          array[10] = 5;  //产生异常
+          }finally{
+          System.out.println("这是finally块");
+          }
+          System.out.println("方法正常结束")；
+          }
+        public static void main(String argv[]){
+        hasException(); //这个方法会有异常
+        System.out.println("程序正常结束")；
+        }
+      }
